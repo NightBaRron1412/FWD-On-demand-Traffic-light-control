@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
-APP\app.c
+APP\app_program.c
 
 HAL\BTN\BTN_program.c
 

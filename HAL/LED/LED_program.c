@@ -11,7 +11,7 @@
 /*========================== Libraries Includes ==========================*/
 #include "../../Lib/Std_Types.h"
 #include "../../Lib/Bit_Math.h"
-#include "../../MCAL/DIO/DIO_interface.h"
+#include "../../UTILS/UTILS_DIO.h"
 #include "LED_private.h"
 #include "LED_config.h"
 #include "LED_interface.h"

@@ -1,16 +1,16 @@
-/** @file DIO_interface.h
+/** @file UTILS_DIO.h
  *
  * @brief A header file including functions for DIO controlling.
  *
  * @author Amir Shetaia
  * @version 2.0
- * @date Dec 3, 2022
+ * @date Dec 18, 2022
  *
  */
 
 /* Include Guard */
-#ifndef DIO_INTERFACE_H
-#define DIO_INTERFACE_H
+#ifndef UTILS_DIO_H
+#define UTILS_DIO_H
 
 /* Enum to hold Variables related to DIO */
 typedef enum
@@ -109,6 +109,6 @@ u8 DIO_u8TogglePortValue(u8 Copy_u8Port);
  */
 u8 DIO_u8GetPortValue(u8 Copy_u8Port, u8 *Copy_Pu8PortValue);
 
-#endif /* DIO_INTERFACE_H */
+#endif /* UTILS_DIO_H */
 
 /*** end of file ***/

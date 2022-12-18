@@ -1,16 +1,16 @@
-/** @file EXTI_interface.h
+/** @file UTILS_EXTI.h
  *
  * @brief A header file including APIs for EXTI controlling.
  *
  * @author Amir Shetaia
  * @version 2.0
- * @date Dec 11, 2022
+ * @date Dec 18, 2022
  *
  */
 
 /* Include guard */
-#ifndef EXTI_INTERFACE_H
-#define EXTI_INTERFACE_H
+#ifndef UTILS_EXTI_H
+#define UTILS_EXTI_H
 
 /* Enum to hold Variables related to EXTI */
 typedef enum
@@ -61,6 +61,6 @@ u8 EXTI_u8SetSenseLevel(u8 Copy_u8IntNumber, u8 Copy_u8SenseLevel);
  */
 u8 EXTI_u8SetCallBack(u8 Copy_u8IntNumber, void (*Copy_PVCallBack)(void));
 
-#endif /* EXTI_INTERFACE_H */
+#endif /* UTILS_EXTI_H */
 
 /*** end of file ***/

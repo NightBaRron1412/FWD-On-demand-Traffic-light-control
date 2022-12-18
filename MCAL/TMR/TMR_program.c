@@ -11,7 +11,7 @@
 #include "../../Lib/Std_Types.h"
 #include "../../Lib/Bit_Math.h"
 #include "TMR_private.h"
-#include "TMR_interface.h"
+#include "../../UTILS/UTILS_TMR.h"
 #include "TMR_config.h"
 
 /*Static variables which save the value of TCCR register corresponding to each timer*/

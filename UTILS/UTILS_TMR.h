@@ -1,16 +1,16 @@
-/** @file TMR_interface.h
+/** @file UTILS_TMR.h
  *
  * @brief A header file including Functions prototypes for TMR
  *
  * @author Amir Shetaia
  * @version 2.0
- * @date Dec 10, 2022
+ * @date Dec 18, 2022
  *
  */
 
 /* Include guard */
-#ifndef TMR_INTERFACE_H
-#define TMR_INTERFACE_H
+#ifndef UTILS_TMR_H
+#define UTILS_TMR_H
 
 /* definitions for time */
 #define SEC (u32)1000000
@@ -120,6 +120,6 @@ u8 TMR_u8OnTime(u16 *Copy_Pu16OnTime);
  */
 u8 TMR_u8OffTime(u16 *Copy_Pu16OffTime);
 
-#endif /* TMR_INTERFACE_H */
+#endif /* UTILS_TMR_H */
 
 /*** end of file ***/

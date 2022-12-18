@@ -25,8 +25,8 @@
 #define BOTH_YELLOW 101
 
 /* Macros to define boolean values */
-#define False 0
-#define True 1
+#define FALSE 0
+#define TRUE 1
 
 /*
  * Description: a function to preform yellow light blinking

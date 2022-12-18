@@ -133,10 +133,13 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="APP\app.c">
+    <Compile Include="APP\app_interface.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="APP\app.h">
+    <Compile Include="APP\app_private.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\app_program.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="HAL\BTN\BTN_config.h">
@@ -175,9 +178,6 @@
     <Compile Include="MCAL\DIO\DIO_config.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="MCAL\DIO\DIO_interface.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="MCAL\DIO\DIO_private.h">
       <SubType>compile</SubType>
     </Compile>
@@ -185,9 +185,6 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="MCAL\EXTI\EXTI_config.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="MCAL\EXTI\EXTI_interface.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="MCAL\EXTI\EXTI_private.h">
@@ -199,9 +196,6 @@
     <Compile Include="MCAL\GIE\GIE_config.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="MCAL\GIE\GIE_interface.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="MCAL\GIE\GIE_private.h">
       <SubType>compile</SubType>
     </Compile>
@@ -211,13 +205,22 @@
     <Compile Include="MCAL\TMR\TMR_config.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="MCAL\TMR\TMR_interface.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="MCAL\TMR\TMR_private.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="MCAL\TMR\TMR_program.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="UTILS\UTILS_DIO.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="UTILS\UTILS_EXTI.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="UTILS\UTILS_GIE.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="UTILS\UTILS_TMR.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
@@ -232,6 +235,7 @@
     <Folder Include="HAL" />
     <Folder Include="APP" />
     <Folder Include="MCAL\TMR" />
+    <Folder Include="UTILS" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>

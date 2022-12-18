@@ -12,7 +12,7 @@
 #include "../../Lib/Bit_Math.h"  /* Includes bit math header functions */
 #include "EXTI_config.h"
 #include "EXTI_private.h"
-#include "EXTI_interface.h"
+#include "../../UTILS/UTILS_EXTI.h"
 
 /*Static array where each element is a pointer to function of each one of the external int (INT0,INT1-INT2)*/
 static void (*PVCallBack[EXTI_NO_OF_EXTI])(void) = {NULL, NULL, NULL};

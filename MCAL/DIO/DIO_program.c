@@ -13,7 +13,7 @@
 #include "../../Lib/Bit_Math.h"
 #include "DIO_private.h"
 #include "DIO_config.h"
-#include "DIO_interface.h"
+#include "../../UTILS/UTILS_DIO.h"
 
 /*========================== Init function ========================== */
 /*
