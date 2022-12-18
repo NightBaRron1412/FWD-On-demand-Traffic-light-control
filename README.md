@@ -37,17 +37,21 @@ The systems software layered Architecture consists of 4 main layers
 and every layer contains the driver program for every
 Microcontroller peripheral and every external hardware
 component as following:
+
 1- MCAL (Microcontroller Abstraction Layer):
 - DIO
 - GIE
 - EXTI
 - TMR
+
 2- HAL (Hardware Abstraction Layer):
 - BTN
 - LED
+
 3- Service Layer
 - Std_Types
 - Bit_math
+
 4- Application layer
 - Main application logic (Logic described in the upcoming
 flowchart) 
